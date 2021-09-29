@@ -1,0 +1,9 @@
+{
+  "name": "hello-world-utils-npm",
+  "version": "1.0.0",
+  "description": "Common Utils npm library",
+  "main": "index.js",
+  "repository": "https://github.com/adityav-Archer/hello-world-utils-npm",
+  "author": "Aditya V",
+  "license": "MIT"
+}
