@@ -11,5 +11,8 @@
   },
   "publishConfig": {
     "@adityav-Archer:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "choice": "^2.0.2"
   }
 }
