@@ -1,8 +1,8 @@
-export let printHelloWorld = () => {
+let printHelloWorld = () => {
    return `hello world`;
 }
 
-export let first = (arr, n) => {
+let first = (arr, n) => {
     let newIdx;
     if(n || n <= 0 || isNaN(n)){
         newIdx = 1;
@@ -10,4 +10,10 @@ export let first = (arr, n) => {
     newIdx = (newIdx > arr.length) ? arr.length : newIdx;
     return arr.splice(0, newIdx);
 
+}
+
+
+module.exports = {
+    printHelloWorld: printHelloWorld,
+    first: first
 }
